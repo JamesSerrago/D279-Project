@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact – Paradigm Pet Professionals</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="top-header">
+        <div class="brand">Paradigm Pet Professionals</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cats.html">Cats</a></li>
+                <li><a href="dogs.html">Dogs</a></li>
+                <li><a href="birds.html">Birds</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="form-section">
+            <h2>Request a Virtual Consultation</h2>
+            <p>Fill out the form below to schedule a one-on-one consultation with one of our certified Pexperts. All
+                fields are required.</p>
+
+            <form action="#" method="post" class="contact-form">
+                <!-- User Info -->
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required />
+
+                <label for="timezone">Time Zone</label>
+                <select id="timezone" name="timezone" required>
+                    <option value="">-- Select Time Zone --</option>
+                    <option value="PST">Pacific Time (PST)</option>
+                    <option value="MST">Mountain Time (MST)</option>
+                    <option value="CST">Central Time (CST)</option>
+                    <option value="EST">Eastern Time (EST)</option>
+                </select>
+
+                <!-- Pet Info -->
+                <label for="petName">Pet's Name</label>
+                <input type="text" id="petName" name="petName" required />
+
+                <label for="petType">Pet Type</label>
+                <input type="text" id="petType" name="petType" required />
+
+                <label for="petAge">Pet's Age</label>
+                <input type="text" id="petAge" name="petAge" required />
+
+                <button type="submit">Submit Request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Paradigm Pet Professionals</p>
+    </footer>
+</body>
+
+</html>
